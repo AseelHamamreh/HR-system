@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    color: white;
+   background-image:url(../images/bg.jpg);
+   background-size: cover;
+}
+
+header{
+    width: 100%;
+    background-color: #00000096;
+    height: 70px;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+#myForm{
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding:20px;
+    background-color: #00000096;
+    float: left;
+}
+
+#myTable{
+    float: right;
+    margin-top: 120px;
+    margin-right: 270px;
+    background-color: #00000096;
+    border: 30px solid  ;
+    border-color: transparent;
+
+
+}
+table{
+    width: 460px;
+    overflow: auto;
+
+
+}
+
+legend{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+#submit{
+width: 175px;
+}
+
+th,td{
+    border:  0.5px solid white;
+    padding: 10px;
+}
+
+p{
+    margin-top: 20px;
+    /* background-color: #00000096; */
+    padding: 10px ;
+    width: 100px;
+    border: 0.5px solid white;
+    text-align: center;
+}
+
+label{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR system</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css"></head>
+    <link rel="stylesheet" href="css/style.css">
+
+
+<body>
+    <header>
+        <h1>HR system</h1>
+    </header>
+    <main>
+        <form id="myForm">
+            <legend>Add Employee</legend><br><br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="department">Department</label><br>
+            <select name="department" id="department">
+                <option>Call-Center</option>
+                <option>Information-Technology</option>
+                <option>Human-Resources</option>
+            </select><br><br>
+
+            <input type="submit" id="submit">
+        </form>
+        <section id="myTable"></section>
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
